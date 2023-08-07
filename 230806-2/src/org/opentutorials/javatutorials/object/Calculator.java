@@ -26,6 +26,7 @@ public class CalculatorDemo4 {
         //Calculator 객체를 새로만들어서 c1 변수에 담았다 . 
         //그 변수는 Calculator 객체를 담을 수 있는 데이터 형식을 가지고 있어야한다.
         c1.setOprands(10, 20);
+        //setOprands(인자값)  => 메소드
         c1.sum();       
         c1.avg();       
           
