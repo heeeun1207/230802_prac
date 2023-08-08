@@ -9,6 +9,7 @@ public class ScopeDemo6 {
     }
  
     static void b() {
+//    	int i = 30;
         System.out.println(i);
     }
  
