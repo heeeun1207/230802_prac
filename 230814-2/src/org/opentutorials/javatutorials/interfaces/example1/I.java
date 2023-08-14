@@ -4,7 +4,7 @@ interface I{
 //class가 아니라 interface 주목하자.
     public void z();
 //z메소드가 정의되어있다. 본체 중괄호는 어디에도 보이지 않는다.
-//마치 abstract() 본첼가 없는것과 똑같다.
+//마치 abstract() 본체가 없는것과 똑같다.
 }
  
 class A implements I{
