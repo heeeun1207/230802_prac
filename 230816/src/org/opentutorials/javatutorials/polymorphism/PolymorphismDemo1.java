@@ -18,9 +18,9 @@ package org.opentutorials.javatutorials.polymorphism;
 //}
 //public class PolymorphismDemo1 {
 //    public static void main(String[] args) {
-//        A obj = new B();
+//      A obj = new B();
 //        obj.x();
-////        obj.y();실행되지 않는다. 
+// //       obj.y(); //코드가 실행되지 않는다. ->    B obj = new B();  바꿔야 실행된다.
 //    }
 //}
 
