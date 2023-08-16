@@ -1,43 +1,23 @@
 package org.opentutorials.javatutorials.polymorphism;
-
-//클래스 B는 클래스 A를 상속하고 있다. 이런 경우에 클래스 B는 클래스 A를 데이터 형으로 삼을 수 있다.
-//class A{}
-//class B extends A {}
-//public class PolymorphismDemo1 {
-//	public static void main(String[] args){
-//		A obj = new B();
-//	}
-//}
-
-//2
-//class A{
-//    public String x(){return "x";}
-//}
-//class B extends A{
-//    public String y(){return "y";}
-//}
-//public class PolymorphismDemo1 {
-//    public static void main(String[] args) {
-//      A obj = new B();
-//        obj.x();
-// //       obj.y(); //코드가 실행되지 않는다. ->    B obj = new B();  바꿔야 실행된다.
-//    }
-//}
-
-//3
 class A{
-public String x(){return "A.x";}
+    public String x(){return "A.x";}
 }
 class B extends A{
-public String x(){return "B.x";}
-public String y(){return "y";}
+    public String x(){return "B.x";}
+    public String y(){return "y";}
 }
+class B2 extends A{
+    public String x(){return "B2.x";}
+}
+//서로 다른 클래스 B와 B2가 동일한 데이터 타입 A로 인스턴스화 되었다.
 public class PolymorphismDemo1 {
-public static void main(String[] args) {
-  A obj = new B();
-  System.out.println(obj.x());
-	}
+    public static void main(String[] args) {
+        A obj = new B();
+        A obj2 = new B2();
+        System.out.println(obj.x());
+        System.out.println(obj2.x());
+    }
 }
-//실행 결과는 ?   A.x ? B.x? 
-//클래스 B를 클래스 A의 데이터 타입으로 인스턴스화 했을 때 클래스 A에 존재하는 맴버만이 클래스 B의 맴버가 된다.
-//동시에 클래스 B에서 오버라이딩한 맴버의 동작방식은 그대로 유지한다. 
+
+//하지만 두 인스턴스의 메소드 x를 호출한 결과는 서로 다르다.
+//이것이 상속과 오버라이딩 그리고 형변환을 이용한 다형성이다.
