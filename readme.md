@@ -1,6 +1,12 @@
-### 230814
+### 예외
 
-Abstract, final, Interface 를 왜? 어떻게? 사용하는지 이해하기
+| 예외 종류                 | 상황                                        |
+| ------------------------- | ------------------------------------------- |
+| IllegalArgumentException  | 매개변수가 의도하지 않은 상황을 유발시킬 때 |
+| IllegalStateException     | 메소드를 호출하기 위한 상태가 아닐 때       |
+| NullPointerException      | 매개 변수 값이 null 일 때                   |
+| IndexOutOfBoundsException | 인덱스 매개 변수 값이 범위를 벗어날 때      |
+| ArithmeticException       | 산술적인 연산에 오류가 있을 때              |
 
 ### error: JavaFX 응용 프로그램 클래스는 javafx.application.Application을(를) 확장해야 합니다.
 
