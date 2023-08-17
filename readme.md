@@ -8,6 +8,10 @@
 | IndexOutOfBoundsException | 인덱스 매개 변수 값이 범위를 벗어날 때      |
 | ArithmeticException       | 산술적인 연산에 오류가 있을 때              |
 
+### 예외 목록
+
+![예외 목록](ExceptionList.png)
+
 ### error: JavaFX 응용 프로그램 클래스는 javafx.application.Application을(를) 확장해야 합니다.
 
 이유는 단순히 저장을 안해서 그런거였다.
