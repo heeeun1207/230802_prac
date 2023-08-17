@@ -11,6 +11,15 @@
 ### 예외 목록
 
 ![예외 목록](ExceptionList.png)
+<br>
+![unchecked](unchecked.png)
+
+- checked 예외<br>
+  - RuntimeException을 제외한 Exception의 하위 클래스<br>
+- unchekced 예외<br>
+  - RuntimeException의 하위 클래스 => 예외 처리 필수 ((ex)IOException)
+
+---
 
 ### error: JavaFX 응용 프로그램 클래스는 javafx.application.Application을(를) 확장해야 합니다.
 
