@@ -6,9 +6,11 @@
 
 ### Spring Legacy Project Spring MVC Project 없음 현상
 
-해결법1. Configure Template 선택해서 pring-defaults를 제외한 2개를 지워보기 <X> <br>
-해결법2. STS 설치할 때 Spring Tools4를 설치한 뒤에 Tools 3 Add-On을 설치해보기 <X> <br>
-해결법3. 2020-6버전으로 변경하고, Spring Tools 3(Standalone Edition) 설치하기. <O>
+해결법1. Configure Template 선택해서 pring-defaults를 제외한 2개를 지워보기 X <br>
+해결법2. STS 설치할 때 Spring Tools4를 설치한 뒤에 Tools 3 Add-On을 설치해보기 X <br>
+해결법3. 2020-6버전으로 변경하고, Spring Tools 3(Standalone Edition) 설치하기 O
+
+---
 
 ### 예외
 
